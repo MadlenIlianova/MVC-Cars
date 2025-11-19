@@ -1,0 +1,211 @@
+﻿@model WebApplication2.Models.CarSearchViewModel
+@{
+    ViewData["Title"] = "Search by filters";
+}
+
+<div class="container mt-4 p-4" style="background-color:black; color:white; border-radius: 8px;"> 
+
+    <form asp-controller="Cars" asp-action="Search" method="get">
+
+        <div class="row g-3">
+            <div class="col-md-4">
+                <label asp-for="Category" class="form-label fw-bold">
+                    Search by category
+                </label>
+                <select asp-for="Category" asp-items="Model.CategoryOptions" class="form-select"></select>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Make" class="form-label fw-bold">Make</label>
+                <select asp-for="Make" asp-items="Model.MakeOptions" class="form-select"></select>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Model" class="form-label fw-bold">Model</label>
+                <input asp-for="Model" class="form-control" placeholder="Example: M5, A4, Altima..." />
+            </div>
+        </div>
+
+        <div class="row g-3 mt-2">
+            <div class="col-md-4">
+                <label asp-for="MaxPrice" class="form-label fw-bold">Max Price</label>
+                <input asp-for="MaxPrice" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Year" class="form-label fw-bold">Year</label>
+                <select asp-for="Year" asp-items="Model.YearOptions" class="form-select"></select>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="SortBy" class="form-label fw-bold">Sort By</label>
+                <select asp-for="SortBy" asp-items="Model.SortByOptions" class="form-select"></select>
+            </div>
+        </div>
+
+        <div class="row g-3 mt-2 align-items-end">
+            <div class="col-md-3">
+                <label asp-for="Engine" class="form-label fw-bold">Engine</label>
+                <select asp-for="Engine" asp-items="Model.EngineOptions" class="form-select"></select>
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Transmission" class="form-label fw-bold">Transmission</label>
+                <select asp-for="Transmission" asp-items="Model.TransmissionOptions" class="form-select"></select>
+            </div>
+            <div class="col-md-6 d-grid">
+                <button type="submit" class="btn btn-primary btn-lg fs-5">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<hr />
+
+<div class="container">
+    @if (Model.Results.Any())
+    {
+        <h3 class="mb-3">
+
+            Results found: @Model.Results.Count
+
+        </h3>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var car in Model.Results)
+            {
+                <partial name="_CarCardRow" model="car" />
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">
+            <h4 class="alert-heading">No results found!</h4>
+            <p>Please change your search criteria and try again.</p>
+        </div>
+    }
+</div>
+
+<div class="modal fade" id="carDetailsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered"> 
+        <div class="modal-content">
+            
+            <div class="modal-header border-0">
+                <h5 class="modal-title fw-bold fs-4" id="modalCarTitle"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row align-items-center">
+                    
+                    <!-- 1. ЛЯВА ЧАСТ: Снимка -->
+                    <div class="col-md-5 text-center">
+                        <img id="modalCarImage" src="" class="img-fluid rounded shadow-sm" alt="Car Image" style="max-height: 250px; width: 100%; object-fit: cover;">
+                    </div>
+
+                    <!-- 2. СРЕДНА ЧАСТ: Описание -->
+                    <div class="col-md-4">
+                        <h5 class="text-muted mb-3">
+                            Specifications:
+                        </h5>
+                        <ul class="list-unstyled fs-6">
+                            <li class="mb-2"> <strong>Year:</strong> <span id="modalYear"></span></li>
+                            <li class="mb-2"> <strong>Engine:</strong> <span id="modalEngine"></span></li>
+                            <li class="mb-2"> <strong>Transmission:</strong> <span id="modalTransmission"></span></li>
+                            <li class="mb-2"> <strong>Drive:</strong> <span id="modalDrive"></span></li>
+                        </ul>
+                        <p class="text-muted small mt-3">
+                            This car has been checked and is available in our database.
+                        </p>
+                    </div>
+
+                    <!-- 3. ДЯСНА ЧАСТ: Like Бутон -->
+                    <div class="col-md-3 text-center border-start"> <!-- border-start прави черта -->
+                        <p class="mb-2 fw-bold">Do you want to save it?</p>
+                        
+                        <button class="btn btn-outline-danger btn-lg rounded-circle p-3 like-btn" id="likeButton">
+                            <i class="far fa-heart fa-2x"></i> 
+                        </button>
+                        
+                        <p class="mt-2 small text-muted" id="likeText">Add to favorites</p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" style="background-color: black; border: none;">
+                    Contact the seller
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ======================================================= -->
+<!-- === JAVASCRIPT ЗА МОДАЛА (ПОСТАВИ В SEARCH.CSHTML) === -->
+<!-- ======================================================= -->
+@section Scripts {
+    <script>
+        // Изчакваме страницата да се зареди напълно
+        $(document).ready(function () {
+            
+            // 1. Когато се натисне бутон с клас 'open-modal-btn'
+            // ВНИМАНИЕ: Трябва да добавиш този клас на бутоните в _CarCardRow.cshtml
+            $(document).on('click', '.open-modal-btn', function () {
+                
+                // Взимаме данните от бутона, който е натиснат
+                var btn = $(this);
+                var make = btn.data('make');
+                var model = btn.data('model');
+                var year = btn.data('year');
+                var img = btn.data('img');
+                var engine = btn.data('engine');
+                var trans = btn.data('transmission');
+                var drive = btn.data('drive');
+
+                // Попълваме Модала с взетите данни
+                $('#modalCarTitle').text(make + ' ' + model);
+                $('#modalCarImage').attr('src', img);
+                $('#modalYear').text(year);
+                $('#modalEngine').text(engine);
+                $('#modalTransmission').text(trans);
+                $('#modalDrive').text(drive);
+
+                // Нулираме бутона за харесване
+                resetLikeButton();
+
+                // Показваме Модала
+                $('#carDetailsModal').modal('show');
+            });
+
+            // 2. Логика за Харесване (Like)
+            $('#likeButton').click(function() {
+                var icon = $(this).find('i');
+                
+                if (icon.hasClass('far')) {
+                    // ХАРЕСВАНE
+                    icon.removeClass('far').addClass('fas'); // fas = Solid (плътно)
+                    $(this).addClass('active-like'); // Добавяме CSS клас за червен фон
+                    $('#likeText').text('Liked!');
+                } else {
+                    // ОТМЯНА
+                    icon.removeClass('fas').addClass('far'); // far = Regular (очертание)
+                    $(this).removeClass('active-like');
+                    $('#likeText').text('Add to favorites');
+                }
+            });
+
+            // Нулираща функция, за да не остава сърцето червено от предишна кола
+            function resetLikeButton() {
+                var btn = $('#likeButton');
+                var icon = btn.find('i');
+                icon.removeClass('fas').addClass('far');
+                btn.removeClass('active-like');
+                $('#likeText').text('Add to favorites');
+            }
+        });
+    </script>
+}

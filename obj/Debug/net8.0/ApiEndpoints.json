@@ -1,18 +1,1 @@
-[
-  {
-    "ContainingType": "WebApplication2.Controllers.CarsController",
-    "Method": "GetCars",
-    "RelativePath": "api/v1/Cars",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "make",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  }
-]
+[]

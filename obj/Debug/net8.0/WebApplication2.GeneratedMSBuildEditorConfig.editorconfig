@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\WebApplication2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/source/repos/WebApplication2/Views/Cars/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/source/repos/WebApplication2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,12 +34,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/User/source/repos/WebApplication2/Views/Shared/_CarCardRow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJDYXJkUm93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/WebApplication2/Views/_CarCardRow.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0NhckNhcmRSb3cuY3NodG1s
+[C:/Users/User/source/repos/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/WebApplication2/Views/_ViewImports.cshtml]

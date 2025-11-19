@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\WebApplication2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\models\\carsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:models\\carsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D70615-D9CD-48ED-AF7D-8968B5CF9594}|..\\Services\\Services.csproj|c:\\users\\user\\source\\repos\\services\\services\\carapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94457025-5522-45DD-8EA2-3C6CF28ED1C2}|..\\Data\\WebDbContext.csproj|c:\\users\\user\\source\\repos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94457025-5522-45DD-8EA2-3C6CF28ED1C2}|..\\Data\\WebDbContext.csproj|c:\\users\\user\\source\\repos\\data\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D70615-D9CD-48ED-AF7D-8968B5CF9594}|..\\Services\\Services.csproj|c:\\users\\user\\source\\repos\\services\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D70615-D9CD-48ED-AF7D-8968B5CF9594}|..\\Services\\Services.csproj|c:\\users\\user\\source\\repos\\services\\services\\icarsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8903FE37-F9B9-4ECE-99FA-B5798D65817B}|..\\CarCore\\CarCore.csproj|c:\\users\\user\\source\\repos\\carcore\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D70615-D9CD-48ED-AF7D-8968B5CF9594}|..\\Services\\Services.csproj|c:\\users\\user\\source\\repos\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\views\\cars\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:views\\cars\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\wwwroot\\css\\cars.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:wwwroot\\css\\cars.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\views\\shared\\_carcardrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:views\\shared\\_carcardrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|c:\\users\\user\\source\\repos\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15B52444-370F-4E0C-A96E-39EA6CD78692}|WebApplication2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94457025-5522-45DD-8EA2-3C6CF28ED1C2}|..\\Data\\WebDbContext.csproj|c:\\users\\user\\source\\repos\\data\\migrations\\20251113105827_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,16 +98,254 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Controllers\\CarsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T18:30:14.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarApiService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Services\\Services\\CarApiService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Services\\CarApiService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Services\\Services\\CarApiService.cs",
+              "RelativeToolTip": "..\\Services\\Services\\CarApiService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:42:14.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Services\\DataSeed.cs",
+              "RelativeDocumentMoniker": "..\\Services\\DataSeed.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Services\\DataSeed.cs",
+              "RelativeToolTip": "..\\Services\\DataSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:21:56.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T17:43:29.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Data\\CarModel.cs",
+              "RelativeDocumentMoniker": "..\\Data\\CarModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Data\\CarModel.cs",
+              "RelativeToolTip": "..\\Data\\CarModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:13:33.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:18:56.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CarSearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Models\\CarSearchViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CarSearchViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Models\\CarSearchViewModel.cs",
+              "RelativeToolTip": "Models\\CarSearchViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:46:38.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICarsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Services\\Services\\ICarsService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Services\\ICarsService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Services\\Services\\ICarsService.cs",
+              "RelativeToolTip": "..\\Services\\Services\\ICarsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:27:54.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T18:19:48.594Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarCore\\Car.cs",
+              "RelativeDocumentMoniker": "..\\CarCore\\Car.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarCore\\Car.cs",
+              "RelativeToolTip": "..\\CarCore\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:39:07.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Services",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "..\\Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Services\\Services.csproj",
+              "RelativeToolTip": "..\\Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T13:31:43.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_CarCardRow.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Shared\\_CarCardRow.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CarCardRow.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Shared\\_CarCardRow.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CarCardRow.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T18:09:20.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-13T09:42:58.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Cars\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Search.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Cars\\Search.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T19:52:26.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-13T09:39:27.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-08T15:22:02.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T06:23:57.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cars.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\css\\cars.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\cars.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\wwwroot\\css\\cars.css",
+              "RelativeToolTip": "wwwroot\\css\\cars.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAIBJwJEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-13T09:59:46.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T20:01:25.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251113105827_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Data\\Migrations\\20251113105827_InitialMigration.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20251113105827_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Data\\Migrations\\20251113105827_InitialMigration.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20251113105827_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:58:27.768Z"
             }
           ]
         },

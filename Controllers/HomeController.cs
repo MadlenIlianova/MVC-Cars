@@ -7,18 +7,16 @@ namespace WebApplication2.Controllers
 {
         public class HomeController : Controller
         {
-            private readonly CarApiService _carService;
+        private readonly ICarsService _carService;
 
-            public HomeController(CarApiService carService)
-            {
-                _carService = carService;
-            }
-
-            public async Task<IActionResult> Index()
-            {
-                var cars = await _carService.GetCarsAsync(2000);
-                return View(cars);
-
-            }
+        public HomeController(ICarsService carService)
+        {
+            _carService = carService;
         }
+        public async Task<IActionResult> Index()
+        {
+            var cars = await _carService.GetCarsAsync(2000);
+            return View(cars);
+        }
+    }
 }
