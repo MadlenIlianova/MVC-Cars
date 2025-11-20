@@ -1,9 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Services;
-using System.Data;
-using WebApplication2.Controllers;
-using WebApplication2.Models;
 using WebApplication2.Services;
 using WebDbContext;
 using Microsoft.AspNetCore.Identity;
@@ -13,23 +8,18 @@ public class Program
     private static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        builder.Services.AddDbContext<AppDbContext>(options =>
+       
+
+        builder.Services.AddDbContext<WebDbContext.AppDbContext>(options =>
             options.UseSqlServer(
                 builder.Configuration.GetConnectionString("DefaultConnection"),
                 b => b.MigrationsAssembly("WebDbContext")
         ));
 
-        builder.Services.AddDefaultIdentity<IdentityUser>(options =>
-        {
-            options.SignIn.RequireConfirmedAccount = false;
-            options.Password.RequireDigit = false;
-            options.Password.RequireLowercase = false;
-            options.Password.RequireNonAlphanumeric = false;
-            options.Password.RequireUppercase = false;
-            options.Password.RequiredLength = 4;
-        })
- 
-            .AddEntityFrameworkStores<AppDbContext>();
+        builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<AppDbContext>();
+
+        
 
         builder.Services.AddScoped<ICarsService, CarApiService>();
         //builder.Services.AddScoped<DataSeed>();

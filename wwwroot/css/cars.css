@@ -1,9 +1,7 @@
 ﻿/*    === Основен контейнер === */
-    .container
-{
+.container {
     max-width: 1500px;
-    background-color: #edf7fa;
-    margin: 0 auto;
+    background-color: antiquewhite;
     padding: 40px 20px;
     text-align: center;
 }
@@ -136,20 +134,20 @@
     animation-delay: 1.0s;
 }
 
-/* Ефект за бутона "Харесвам" */
+
 .like-btn {
     transition: all 0.3s ease;
     color: black;
 }
 
     .like-btn:hover {
-        background-color: #fff5f5; /* Много бледо червено при посочване */
-        transform: scale(1.1); /* Леко уголемяване */
+        background-color: #fff5f5; 
+        transform: scale(1.1); 
     }
 
 /* Когато е харесано (Активен клас) */
 .active-like {
-    background-color: #dc3545 !important; /* Червен фон */
-    color: white !important; /* Бяло сърце */
-    box-shadow: 0 0 15px rgba(220, 53, 69, 0.5); /* Светещ ефект */
+    background-color: #dc3545 !important; 
+    color: white !important; 
+    box-shadow: 0 0 15px rgba(220, 53, 69, 0.5); 
 }

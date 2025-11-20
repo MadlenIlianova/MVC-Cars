@@ -64,7 +64,7 @@ namespace WebApplication2.Controllers
             model.MakeOptions.Add(new SelectListItem { Value = "", Text = "All" });
             model.MakeOptions.Add(new SelectListItem { Value = "bmw", Text = "BMW" });
             model.MakeOptions.Add(new SelectListItem { Value = "audi", Text = "Audi" });
-            model.MakeOptions.Add(new SelectListItem { Value = "mercedes", Text = "Mercedes" });
+            model.MakeOptions.Add(new SelectListItem { Value = "mercedes-benz", Text = "Mercedes-benz" });
             model.MakeOptions.Add(new SelectListItem { Value = "nissan", Text = "Nissan" });
             model.MakeOptions.Add(new SelectListItem { Value = "lexus", Text = "Lexus" });
             model.MakeOptions.Add(new SelectListItem { Value = "kia", Text = "Kia" });
